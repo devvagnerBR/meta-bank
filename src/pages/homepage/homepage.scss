@@ -6,43 +6,36 @@
 }
 
 .homepage-l {
+	//background: tomato;
 	display: flex;
 	align-items: center;
-	//background: tomato;
 	justify-content: center;
-	padding: 10%;
-	flex-direction: column;
-	font-size: 5.5rem;
+}
 
+.homepage-text {
 	h1 {
 		color: $seconday;
-	}
-	span {
-		color: white;
+		font-size: 4rem;
+
+		span {
+			color: $white;
+			font-weight: 300;
+		}
 	}
 
 	p {
-		font-size: 1rem;
 		color: $white;
-		font-weight: 300;
-		font-style: italic;
+		font-size: 300;
 	}
-}
-.homepage-text {
-	//background: red;
-}
-.homepage-r {
-	//background: green;
-	padding: 10%;
-}
 
-#button {
-	background: $seconday;
-	border: none;
-	outline: none;
-	padding: 15px;
-	width: 150px;
-	font-size: 1.1rem;
-	font-weight: 500;
-	color: $primary;
+	button {
+		margin-top: 20px;
+		background: $seconday;
+		border: none;
+		outline: none;
+		padding: 15px;
+		width: 130px;
+		color: $primary;
+		font-weight: 700;
+	}
 }
