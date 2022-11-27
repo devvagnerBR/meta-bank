@@ -4,6 +4,21 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	font-family: "Alexandria", sans-serif;
+flex-wrap: wrap;
+
+	a {
+		text-decoration: none;
+		font-size: 1.2rem;
+		h1 {
+			color: $white;
+
+			span {
+				color: $seconday;
+				padding-left: 5px;
+			}
+		}
+	}
 }
 .login-icon {
 	display: flex;

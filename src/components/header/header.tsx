@@ -10,11 +10,19 @@ const Header = () => {
 
     return (
         <header className='header'>
-            <Link to='/'> <img src={logo} alt="" /> </Link>
+
+            <Link to='/'>
+                <h1>Meta
+                    <span>Bank</span>
+                </h1>
+            </Link>
+
             <div className='login-icon'>
                 <Link to='/login' >Login</Link>
                 <img src={login} alt="" />
             </div>
+
+
         </header>
     )
 }
