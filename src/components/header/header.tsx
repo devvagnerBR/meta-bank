@@ -20,7 +20,7 @@ const Header = () => {
             </Link>
 
             <div className='login-icon'>
-                <Link to='/login' >Login</Link>
+                <Link to='/login' >entrar</Link>
                 <img src={login} alt="" />
             </div>
 
