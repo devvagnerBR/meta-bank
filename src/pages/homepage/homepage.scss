@@ -6,13 +6,13 @@
 }
 
 .homepage-l {
-	//background: tomato;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .homepage-text {
+	background: tomato;
 	h1 {
 		color: $seconday;
 		font-size: 4rem;
