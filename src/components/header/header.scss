@@ -1,39 +1,37 @@
 .header {
 	background: $primary;
-	height: 10vh;
+	height: 15vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
-	font-family: "Alexandria", sans-serif;
-flex-wrap: wrap;
+	justify-content: space-evenly;
+
+	h1 {
+		font-size: 2rem;
+		color: white;
+		font-weight: 600;
+	}
+
+	span {
+		padding-left: 10px;
+		color: $seconday;
+	}
 
 	a {
 		text-decoration: none;
-		font-size: 1.2rem;
-		h1 {
-			color: $white;
-
-			span {
-				color: $seconday;
-				padding-left: 5px;
-			}
-		}
 	}
 }
+
 .login-icon {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-
-	img {
-		padding-left: 10px;
-	}
 
 	a {
-		text-decoration: none;
 		color: $seconday;
-		font-weight: 500;
-		font-family: "Alexandria", sans-serif;
+		font-size: 1.2rem;
+	}
+
+	img {
+		padding-left: 20px;
 	}
 }

@@ -1,41 +1,7 @@
 .homepage-container {
 	background: $primary;
-	height: 90vh;
+	height: 85vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-}
 
-.homepage-l {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.homepage-text {
-	//background: tomato;
-	h1 {
-		color: $seconday;
-		font-size: 4rem;
-
-		span {
-			color: $white;
-			font-weight: 300;
-		}
-	}
-
-	p {
-		color: $white;
-		font-size: 300;
-	}
-
-	button {
-		margin-top: 20px;
-		background: $seconday;
-		border: none;
-		outline: none;
-		padding: 15px;
-		width: 130px;
-		color: $primary;
-		font-weight: 700;
-	}
 }
