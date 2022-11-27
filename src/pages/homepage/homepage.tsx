@@ -5,32 +5,17 @@ const Homepage = () => {
 
         <div className="homepage-container">
 
-
-            <section className="homepage-slogan">
-
-                <div className="homepage-content">
-                    <h1>
-                        <span>Best</span> {" "}
-                        way to
-                    </h1>
+            <section className="homepage-l">
+                <aside className="homepage-text">
+                    <h1>Best <span>way to</span></h1>
                     <h1>manage <span>your</span></h1>
                     <h1>finance</h1>
-
-                    <h3>With this platform you can manage your all</h3>
-                    <h3> finance very easily & fast.</h3>
-
-                </div>
-
-
-
-
+                    <p>with this plataform you can manage your all finance easily & fast.</p>
+                    <button id="button">Get Started</button>
+                </aside>
             </section>
-
-
-
-            <aside className="homepage-images">
-
-            </aside>
+            <section className="homepage-r">
+            </section>
         </div>
     )
 }
