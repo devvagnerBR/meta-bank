@@ -1,1 +1,14 @@
-@import './reset.scss'
+@import "../common/colors.scss";
+
+
+
+*,
+body,
+html {
+	font-family: "Alexandria", sans-serif;
+	background: $primary;
+}
+
+@import "./reset.scss";
+@import "../components/header/header.scss";
+@import "./media.scss";

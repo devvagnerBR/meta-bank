@@ -1,0 +1,24 @@
+.header {
+	background: $primary;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.login-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	img {
+		padding-left: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $seconday;
+		font-weight: 500;
+		font-family: "Alexandria", sans-serif;
+	}
+}
