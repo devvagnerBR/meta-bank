@@ -27,6 +27,7 @@
 	align-items: center;
 	justify-content: center;
 	//background: greenyellow;
+	overflow: hidden;
 }
 .text-1 {
 	padding: 0px 20px;
@@ -37,7 +38,7 @@
 	h2 {
 		padding-top: 25px;
 		color: $white;
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		line-height: 1.2;
 		font-weight: 300;
 	}
@@ -48,10 +49,14 @@
 }
 
 .cards-preview {
+	//background: green;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	padding-top: 70px;
+	height: 280px;
 
 	img {
 		width: 80%;
@@ -66,6 +71,39 @@
 		z-index: 1000;
 		position: relative;
 		top: -190px;
-
 	}
+}
+
+.text-2 {
+	//background: red;
+	padding: 10px 20px;
+	//background: blue;
+	text-align: end;
+	width: 100%;
+
+	h2 {
+		padding-top: 25px;
+		color: $white;
+		font-size: 1.4rem;
+		line-height: 1.2;
+		font-weight: 300;
+	}
+
+	span {
+		color: $seconday;
+	}
+}
+
+.btn {
+	background: $seconday;
+	color: $primary;
+	border: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	width: 90%;
+	height: 40px;
+	margin-top: 40px;
 }
