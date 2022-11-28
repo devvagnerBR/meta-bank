@@ -19,11 +19,6 @@ const Header = () => {
                 </h1>
             </Link>
 
-            <div className='login-icon'>
-                <Link to='/login' >entrar</Link>
-                <img src={login} alt="" />
-            </div>
-
         </header>
     )
 }

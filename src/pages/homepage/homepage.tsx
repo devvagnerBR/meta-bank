@@ -7,32 +7,33 @@ const Homepage = () => {
 
         <div className="homepage-container">
 
-            <main className="homepage-content">
-                <h1>Meta <span> Bank </span> </h1>
+            <header className='homepage-title'>
+                <h1>Banco 100% digital</h1>
+            </header>
+            <section className='homepage-subtitle'>
+                <h2>
+                    Realizar e receber <br />
+                    pagamentos nunca foi <br />
+                    tão
+                    <span> fácil. </span>
+                </h2>
+            </section>
 
-                <section className="text-1">
-                    <h2>
-                        Realizar e receber <br />
-                        pagamentos nunca foi <br />
-                        tão <span>fácil.</span>
-                    </h2>
-                </section>
-
-                <aside className='cards-preview'>
-                    <img src={back_card} alt="" />
-                    <img src={front_Card} alt="" />
-                </aside>
-
-                <section className='text-2'>
-                    <h2>o banco feito por <span> devs </span> <br />
-                        para <span> devs. </span>
-                    </h2>
-                </section>
-
-
-                <button className='btn'>abrir uma conta</button>
+            <main className='homepage-cards'>
+                <img src={front_Card} alt="front-credit-card" />
+                <img src={back_card} alt="back-credit-card" />
             </main>
 
+            <section className='homepage-subtitle2'>
+                <h2>o banco feito por <span>devs</span> <br />
+                    para <span>devs.</span>
+                </h2>
+            </section>
+
+            <section className='homepage-buttons'>
+                <button>entrar</button>
+                <button>abra sua conta</button>
+            </section>
         </div>
     )
 }
