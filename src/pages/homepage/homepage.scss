@@ -55,11 +55,13 @@
 		position: absolute;
 		z-index: 1;
 		top: 270px;
+		filter: drop-shadow(1px -0px 0px $seconday);
 	}
 
 	:nth-child(2) {
 		top: 300px;
 		position: absolute;
+		filter: drop-shadow(1px -0px 0px $seconday);
 	}
 }
 .homepage-subtitle2 {
