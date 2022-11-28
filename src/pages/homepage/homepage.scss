@@ -52,7 +52,6 @@
 	}
 
 	:nth-child(1) {
-
 		position: absolute;
 		z-index: 1;
 		top: 270px;
@@ -98,6 +97,10 @@
 		color: $primary;
 		font-size: 1.2rem;
 		font-weight: 500;
+	}
+
+	:nth-child(2) {
+		background: $white;
 	}
 }
 
