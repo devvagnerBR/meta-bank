@@ -1,6 +1,5 @@
 .button {
 	width: 90%;
-
 	height: 60px;
 	font-size: 1.2rem;
 	background: $seconday;
@@ -9,4 +8,10 @@
 	outline: none;
 	color: $primary;
 	cursor: pointer;
+}
+
+.button-yellow {
+	@extend .button;
+	background: $primary;
+	color: $secondary-dark;
 }

@@ -27,7 +27,11 @@ const LoginForm = () => {
             />
 
             <Message />
-            <Button />
+            
+            <Button
+                className='button-yellow'
+            />
+
             <Link to='/signup'>
                 <p>ainda não tem conta?
                     <span>{" "} cadastre-se! </span>
