@@ -5,9 +5,6 @@ import Header from '../../components/header/header'
 
 const Homepage = () => {
 
-        const name = 'wagner'
-        
-
     return (
 
         <div className="homepage-container">

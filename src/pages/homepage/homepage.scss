@@ -1,10 +1,10 @@
 .homepage-container {
 	background: $primary;
 	height: 100vh;
+
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 15px;
 }
 
 // 90 vh | 10vh | 10vh | = restante 70vh
@@ -29,6 +29,7 @@
 	height: 10vh;
 	width: 100%;
 	text-align: end;
+	padding: 0px 20px;
 	h2 {
 		line-height: 1.3;
 		font-size: 1.2rem;
@@ -69,7 +70,7 @@
 .homepage-subtitle2 {
 	height: 7vh;
 	width: 100%;
-
+	padding: 0px 20px;
 	//background: greenyellow;
 	text-align: end;
 	h2 {
@@ -90,6 +91,7 @@
 	width: 100%;
 	height: 20vh;
 	align-items: center;
+
 	justify-content: space-around;
 
 	a {
