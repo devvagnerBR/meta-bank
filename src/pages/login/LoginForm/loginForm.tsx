@@ -11,7 +11,7 @@ const LoginForm = () => {
             <Input />
             <Message />
             <Button />
-            <Link to='/login'>
+            <Link to='/signup'>
                 <p>ainda não tem conta?
                     <span> cadastre-se!</span>
                 </p>
