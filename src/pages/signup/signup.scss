@@ -1,4 +1,39 @@
 .signup-container {
-	background: red;
+	height: 100vh;
+	background-image: url("../../assets/images/pexels-gustavo-trotta-13698081.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: stretch;
+}
 
+.signup-header {
+	padding: 20px;
+	//background: red;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	gap: 15px;
+	height: 55vh;
+	align-items: flex-end;
+
+	h1 {
+		color: $primary;
+		font-size: 4rem;
+	}
+
+	h3 {
+		color: $primary;
+		font-size: 1.2rem;
+	}
+}
+.form-signup-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: $primary;
+	height: 45vh;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	box-shadow: 1px -4px 6px -2px rgb(55, 55, 55);
 }

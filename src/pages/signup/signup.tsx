@@ -4,7 +4,13 @@ const Signup = () => {
 
     return (
         <div className='signup-container'>
-            <h1>fdsfsdf</h1>
+            <header className='signup-header'>
+                <h1>Login</h1>
+                <h3>Bem vindo de volta!</h3>
+            </header>
+            <section className='form-signup-container'>
+
+            </section>
         </div>
     )
 }
