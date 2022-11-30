@@ -1,5 +1,6 @@
 .message-container {
-	//background: red;
+	margin: 10px;
+	background: red;
 	width: 90%;
 	text-align: center;
 	display: flex;
@@ -7,6 +8,7 @@
 	justify-content: center;
 	color: $white;
 	font-weight: 300;
+	padding: 10px;
 	height: 20px;
-    // visibility: hidden;
+	visibility: hidden;
 }

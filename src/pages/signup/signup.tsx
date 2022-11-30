@@ -3,16 +3,16 @@ import SignupForm from './signupForm/signupForm'
 
 const Signup = () => {
 
-    return (
 
+
+
+
+    return (
         <div className='signup-container animeLeft'>
             <header className='signup-header'>
-                <h1>Login</h1>
-                <h3>Bem vindo de volta!</h3>
+                <h1>Cadastro</h1>
+                <h3> Bem vindo!</h3>
             </header>
-            {/* <section className='form-signup-container'>
-        
-            </section> */}
             <SignupForm />
         </div>
     )

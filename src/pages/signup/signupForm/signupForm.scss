@@ -1,13 +1,10 @@
+
+
 .form-signup-container {
 	display: flex;
 	align-items: center;
-	justify-content: start;
-	gap: 20px;
+	justify-content: center;
 	flex-direction: column;
-	background: $primary;
-	border-radius: 15px 15px 0 0;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	width: 100%;
-	height: auto;
+	//background: red;
+	height: 70vh;
 }

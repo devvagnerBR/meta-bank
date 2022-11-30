@@ -5,6 +5,9 @@ import Header from '../../components/header/header'
 
 const Homepage = () => {
 
+        const name = 'wagner'
+        
+
     return (
 
         <div className="homepage-container">
@@ -25,6 +28,7 @@ const Homepage = () => {
                 <img className='animeLeft' src={front_Card} alt="front-credit-card" />
                 <img className='animeLeft' src={back_card} alt="back-credit-card" />
             </main>
+
 
             <section className='homepage-subtitle2'>
                 <h2>o banco feito por <span>devs</span> <br />
