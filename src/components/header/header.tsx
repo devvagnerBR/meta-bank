@@ -7,6 +7,8 @@ import { useLocation } from 'react-router'
 
 const Header = () => {
 
+    // reder null nas telas de login e signup
+
     return (
 
         <header className='header'>
