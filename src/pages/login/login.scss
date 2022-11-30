@@ -1,0 +1,40 @@
+.login-container {
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.1),
+			rgba(0, 0, 0, 0.99)
+		),
+		url("../../assets/images/4.jpg");
+	background-position: start;
+	background-attachment: fixed;
+	background-size: cover;
+	background-attachment: local;
+
+	// background-size: 100% 80vh;
+}
+
+.login-header {
+	padding: 10px 20px;
+	//background: blue;
+	align-items: flex-start;
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	gap: 5px;
+	height: 30vh;
+
+	h1 {
+		color: $seconday;
+		font-size: 3rem;
+	}
+
+	h3 {
+		color: $white;
+		font-size: 1rem;
+		font-weight: 300;
+	}
+
+	span {
+		font-weight: 500;
+	}
+}

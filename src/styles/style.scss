@@ -1,12 +1,14 @@
-@import "../common/colors.scss";
 @import "./reset.scss";
+@import "../common/colors.scss";
 @import "../components/alertMessage/message.scss";
 @import "../components/button/button.scss";
 @import "../components/input/input.scss";
 @import "../components/header/header.scss";
 @import "../pages/homepage/homepage.scss";
 @import "../pages/signup/signup.scss";
-@import "../pages/signup//signupForm/signupForm.scss";
+@import "../pages/signup/signupForm/signupForm.scss";
+@import '../pages/login//LoginForm/loginForm.scss';
+@import "../pages/login/login.scss";
 @import "./media.scss";
 
 *,
