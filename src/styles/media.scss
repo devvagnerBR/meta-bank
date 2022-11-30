@@ -1,16 +1,16 @@
 @media (max-width: 1300px) {
-
 }
 
-@media (max-width: 740px) {
-	.header {
+@media (max-height: 800px) {
+	.homepage-cards {
+		:nth-child(1) {
+			top: 190px;
+		}
 
-
+		:nth-child(2) {
+			top: 250px;
+		}
 	}
-	.homepage-text {
-
-	}
-	
 }
 // 	@media (max-width: 500px) {
 

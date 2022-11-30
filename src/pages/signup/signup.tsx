@@ -8,7 +8,7 @@ const Signup = () => {
 
 
     return (
-        <div className='signup-container animeLeft'>
+        <div className='signup-container'>
             <header className='signup-header'>
                 <h1>Cadastro</h1>
                 <h3> Bem vindo a família <span>Meta</span>!</h3>
