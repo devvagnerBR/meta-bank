@@ -1,14 +1,14 @@
 .signup-container {
+	height: 100vh;
 	background-image: url("../../assets/images/pexels-gustavo-trotta-13698081.jpg");
 	background-position: top;
-	background-size: 100vw 500px;
+	background-size: 100vw 600px;
 	// background-size: 100% 80vh;
 	display: grid;
 	flex-direction: column;
 	background-repeat: no-repeat;
 	align-items: flex-end;
 	object-fit: contain;
-	height: 100vh;
 }
 
 .signup-header {
@@ -19,7 +19,10 @@
 	flex-direction: column;
 	gap: 15px;
 	height: 50vh;
+	position: fixed;
 	align-items: flex-end;
+	top: 0;
+	right: 0;
 
 	h1 {
 		color: $primary;
