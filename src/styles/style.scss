@@ -1,15 +1,25 @@
 @import "../common/colors.scss";
 @import "./reset.scss";
 @import "../components/header/header.scss";
-@import '../pages/homepage/homepage.scss';
+@import "../pages/homepage/homepage.scss";
+@import "../pages/signup/signup.scss";
 @import "./media.scss";
-
-
 
 *,
 body,
 html {
 	font-family: "Alexandria", sans-serif;
-
 }
 
+.animeLeft {
+	opacity: 0;
+	transform: translateX(-20px);
+	animation: animeLeft 0.9s forwards;
+}
+
+@keyframes animeLeft {
+	to {
+		opacity: 1;
+		transform: initial;
+	}
+}

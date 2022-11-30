@@ -1,18 +1,15 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
 import login from '../../assets/icons/log-in.svg'
-import { Link, useNavigate } from 'react-router-dom'
-// import { GO_TO_HOME_PAGE } from '../../routes/coordinators'
+import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router'
+
 
 const Header = () => {
-
-    const navigate = useNavigate()
-
 
     return (
 
         <header className='header'>
-
             <Link to='/'>
                 <h1>Meta
                     <span>Bank</span>
@@ -21,6 +18,7 @@ const Header = () => {
 
         </header>
     )
+
 }
 
 export default Header

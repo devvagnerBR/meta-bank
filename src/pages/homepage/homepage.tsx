@@ -1,12 +1,14 @@
 import front_Card from '../../assets/images/credit card.png'
 import back_card from '../../assets/images/back-card.png'
+import { Link } from 'react-router-dom'
+import Header from '../../components/header/header'
 
 const Homepage = () => {
     return (
 
 
         <div className="homepage-container">
-
+            < Header />
             <header className='homepage-title'>
                 <h1>Banco 100% digital</h1>
             </header>
@@ -19,9 +21,9 @@ const Homepage = () => {
                 </h2>
             </section>
 
-            <main className='homepage-cards'>
-                <img src={front_Card} alt="front-credit-card" />
-                <img src={back_card} alt="back-credit-card" />
+            <main className='homepage-cards '>
+                <img className='animeLeft' src={front_Card} alt="front-credit-card" />
+                <img className='animeLeft' src={back_card} alt="back-credit-card" />
             </main>
 
             <section className='homepage-subtitle2'>
@@ -31,8 +33,17 @@ const Homepage = () => {
             </section>
 
             <section className='homepage-buttons'>
-                <button>entrar</button>
-                <button>abra sua conta</button>
+
+                <Link to='/login'>
+                    <button>entrar</button>
+                </Link>
+
+                <Link to='/signup'>
+                    <button id='btn-open'>abra sua conta</button>
+                </Link>
+
+
+
             </section>
         </div>
     )
