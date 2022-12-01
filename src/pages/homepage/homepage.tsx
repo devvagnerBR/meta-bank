@@ -3,11 +3,15 @@ import back_card from '../../assets/images/back-card.png'
 import { Link } from 'react-router-dom'
 import Header from '../../components/header/header'
 import Loading from '../../components/loading/loading'
-import React from 'react'
+
+import useLoading from '../../hooks/useLoading'
 
 const Homepage = () => {
 
+    const { loading } = useLoading()
 
+    if ( loading ) return <Loading />
+    else
         return (
 
 

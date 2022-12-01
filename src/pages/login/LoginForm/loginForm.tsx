@@ -5,10 +5,21 @@ import Input from '../../../components/input/input'
 import { Link } from 'react-router-dom';
 import username from '../../../assets/icons/username.png'
 import password from '../../../assets/icons/password.png'
+
+// react-hook-form
+import { useForm } from 'react-hook-form'
+import { yupResolver } from '@hookform/resolvers/yup'
+import * as yup from 'yup'
+//
+
 const LoginForm = () => {
 
+
+
+
+
     return (
-        <div className='loginform-container'>
+        <form className='loginform-container'>
             <Input
                 label='usuário'
                 name='username'
@@ -27,7 +38,7 @@ const LoginForm = () => {
             />
 
             <Message />
-            
+
             <Button
                 className='button-yellow'
             />
@@ -37,7 +48,7 @@ const LoginForm = () => {
                     <span>{" "} cadastre-se! </span>
                 </p>
             </Link>
-        </div>
+        </form>
     )
 }
 

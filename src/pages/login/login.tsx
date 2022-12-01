@@ -1,7 +1,7 @@
 import React from 'react'
 import Loading from '../../components/loading/loading'
 import LoginForm from './LoginForm/loginForm'
-import { useLoading } from './../../hooks/setLoading';
+import { useLoading } from '../../hooks/useLoading';
 
 const Login = () => {
 
