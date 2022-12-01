@@ -22,8 +22,6 @@ const SignupForm = () => {
     const submitLogin = ( body: INPUT_INTERFACE ) => {
         requestSignup( body )
     }
-
-
     const validateForm = yup.object( {
 
         username:

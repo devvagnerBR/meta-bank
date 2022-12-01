@@ -5,19 +5,22 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	height: 80vh;
+
 }
 
 a {
-    font-size: 0.91rem;
-    width: 90%;
-    text-align: end;
-    text-decoration: none;
-    color: $white;
-    padding-top: 15px;
-    font-weight: 300;
+	font-size: 0.91rem;
+	width: 90%;
+	text-align: end;
+	text-decoration: none;
+	color: $white;
+    margin-top: 10px;
 
-    span {
-        color: $seconday;
-        font-weight: 300;
-    }
+	font-weight: 300;
+
+	span {
+		color: $seconday;
+		font-weight: 300;
+	}
 }
