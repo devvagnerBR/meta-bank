@@ -49,7 +49,7 @@ const LoginForm = () => {
                 registerInput={'username'}
                 name='username'
                 register={register}
-                errors={errors}
+
                 className='yellowInput'
 
             />
@@ -60,7 +60,7 @@ const LoginForm = () => {
                 registerInput={'password'}
                 name='password'
                 register={register}
-                errors={errors}
+
                 className='yellowInput'
             />
 
