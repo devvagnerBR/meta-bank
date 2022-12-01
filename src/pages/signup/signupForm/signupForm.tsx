@@ -23,7 +23,29 @@ const SignupForm = () => {
         requestSignup( body )
     }
 
-    const { register, handleSubmit, formState: { errors } } = useForm<INPUT_INTERFACE>()
+
+    const validateForm = yup.object( {
+
+        username:
+            yup.string()
+                .required( 'campo obrigatório' )
+                .min( 6 )
+                .max( 10 ),
+
+        password:
+            yup.string()
+                .required( 'campo obrigatório' )
+                .min( 6 )
+                .max( 10 )
+
+    } )
+
+    const { register, handleSubmit, formState: { errors } } = useForm<INPUT_INTERFACE>( { resolver: yupResolver( validateForm ) } )
+
+
+
+
+
 
 
     return (
@@ -31,11 +53,11 @@ const SignupForm = () => {
             <Input
                 label='usuário'
                 type='text'
-                placeholder='meta tarso'
                 icon={username}
                 registerInput={'username'}
                 name='username'
                 register={register}
+                errors={errors}
             />
             <Input
                 label='senha'
@@ -44,8 +66,9 @@ const SignupForm = () => {
                 registerInput={'password'}
                 name='password'
                 register={register}
+                errors={errors}
             />
-            <Message />
+
             <Button />
             <Link to='/login'>
                 <p>já tem conta?

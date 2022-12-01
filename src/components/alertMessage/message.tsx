@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Message = () => {
+const Message = ( message?: string | any ) => {
     return (
         <div className='message-container'>
-            <p>usuário ou senha incorreto</p>
+            <p>{''}</p>
         </div>
     )
 }

@@ -1,14 +1,13 @@
 .message-container {
 	margin: 10px;
-	background: red;
-	width: 90%;
+	//background: red;
+	width: 100%;
 	text-align: center;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	color: $white;
-	font-weight: 300;
+	justify-content: end;
+	color: red;
+	font-weight: 600;
 	padding: 10px;
 	height: 20px;
-	visibility: hidden;
 }

@@ -10,31 +10,58 @@ import password from '../../../assets/icons/password.png'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
+import { INPUT_INTERFACE } from './../../../services/interfaces/IInput';
 //
 
 const LoginForm = () => {
 
 
 
+    const submitLogin = ( body: INPUT_INTERFACE ) => {
+        console.log( body )
+    }
 
+    const validateForm = yup.object( {
+
+        username:
+            yup.string()
+                .required( 'campo obrigatório' )
+                .min( 6 )
+                .max( 10 ),
+
+        password:
+            yup.string()
+                .required( 'campo obrigatório' )
+                .min( 6 )
+                .max( 10 )
+
+    } )
+
+
+    const { register, handleSubmit, formState: { errors } } = useForm<INPUT_INTERFACE>( { resolver: yupResolver( validateForm ) } )
 
     return (
-        <form className='loginform-container'>
+        <form onSubmit={handleSubmit( submitLogin )} className='loginform-container'>
             <Input
                 label='usuário'
-                name='username'
                 type='text'
-                placeholder='metatarso'
-                className='yellowInput'
                 icon={username}
+                registerInput={'username'}
+                name='username'
+                register={register}
+                errors={errors}
+                className='yellowInput'
 
             />
             <Input
                 label='senha'
-                name='password'
                 type='password'
-                className='yellowInput'
                 icon={password}
+                registerInput={'password'}
+                name='password'
+                register={register}
+                errors={errors}
+                className='yellowInput'
             />
 
             <Message />
