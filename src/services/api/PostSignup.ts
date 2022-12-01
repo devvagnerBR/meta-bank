@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { BASE_URL } from './BaseURL';
-import { INPUT_INTERFACE } from './../services/interfaces/IInput';
+import { INPUT_INTERFACE } from '../interfaces/IInput';
 
 export const POST_LOGIN = () => {
 

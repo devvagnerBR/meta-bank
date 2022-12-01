@@ -11,29 +11,27 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { INPUT_INTERFACE } from './../../../services/interfaces/IInput';
+import { POST_LOGIN } from './../../../services/api/PostLogin';
 //
 
 const LoginForm = () => {
 
-
+    const { requestLogin, erro } = POST_LOGIN()
 
     const submitLogin = ( body: INPUT_INTERFACE ) => {
-        console.log( body )
+        requestLogin( body )
     }
 
     const validateForm = yup.object( {
 
         username:
             yup.string()
-                .required( 'campo obrigatório' )
-                .min( 6 )
-                .max( 10 ),
+                .required( 'campo obrigatório' ),
 
         password:
             yup.string()
                 .required( 'campo obrigatório' )
-                .min( 6 )
-                .max( 10 )
+
 
     } )
 
@@ -49,9 +47,8 @@ const LoginForm = () => {
                 registerInput={'username'}
                 name='username'
                 register={register}
-
                 className='yellowInput'
-
+                errors={errors}
             />
             <Input
                 label='senha'
@@ -60,8 +57,8 @@ const LoginForm = () => {
                 registerInput={'password'}
                 name='password'
                 register={register}
-
                 className='yellowInput'
+                errors={errors}
             />
 
             <Message />

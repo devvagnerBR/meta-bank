@@ -8,5 +8,5 @@ export interface INPUT_INTERFACE {
     className?: 'yellowInput' | '';
     registerInput?: any
     register?: any
-    errors?: any
+    errors?: any 
 }

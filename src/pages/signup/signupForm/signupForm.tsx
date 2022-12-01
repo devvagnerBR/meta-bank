@@ -13,7 +13,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { LOGIN_INTERFACE } from './../../../services/interfaces/ILoginUser';
 import { INPUT_INTERFACE } from './../../../services/interfaces/IInput';
-import { POST_LOGIN } from '../../../API/PostSignup';
+import { POST_LOGIN } from '../../../services/api/PostSignup';
 
 const SignupForm = () => {
 
@@ -27,26 +27,21 @@ const SignupForm = () => {
         username:
             yup.string()
                 .required( 'campo obrigatório' )
-                .min( 6 )
-                .max( 10 ),
+                .min( 3, 'nome de usuário precisa ter pelo menos 3 caracteres' )
+                .max( 15, 'nome de usuário pode ter no máximo 15 caracteres' ),
 
         password:
             yup.string()
                 .required( 'campo obrigatório' )
-                .min( 6 )
-                .max( 10 )
+                .min( 8, 'senha precisa ter pelo menos 8 caracteres' )
+
 
     } )
 
     const { register, handleSubmit, formState: { errors } } = useForm<INPUT_INTERFACE>( { resolver: yupResolver( validateForm ) } )
 
-
-
-
-
-
-
     return (
+
         <form onSubmit={handleSubmit( submitLogin )} className='form-signup-container'>
             <Input
                 label='usuário'
@@ -56,6 +51,7 @@ const SignupForm = () => {
                 name='username'
                 register={register}
                 errors={errors}
+
             />
             <Input
                 label='senha'
