@@ -1,16 +1,23 @@
 import React from 'react'
+import Loading from '../../components/loading/loading'
 import LoginForm from './LoginForm/loginForm'
+import { useLoading } from './../../hooks/setLoading';
 
 const Login = () => {
-    return (
-        <div className='login-container animeLeft'>
-            <header className='login-header'>
-                <h1>Login</h1>
-                <h3> Bem vindo de volta!</h3>
-            </header>
-            <LoginForm />
-        </div>
-    )
+
+    const { loading } = useLoading()
+
+    if ( loading ) return <Loading />
+    else
+        return (
+            <div className='login-container animeLeft'>
+                <header className='login-header'>
+                    <h1>Login</h1>
+                    <h3> Bem vindo de volta!</h3>
+                </header>
+                <LoginForm />
+            </div>
+        )
 }
 
 export default Login
