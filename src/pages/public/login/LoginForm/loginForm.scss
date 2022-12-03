@@ -6,7 +6,6 @@
 	justify-content: center;
 	flex-direction: column;
 	height: 80vh;
-
 }
 
 a {
@@ -15,12 +14,12 @@ a {
 	text-align: end;
 	text-decoration: none;
 	color: $white;
-    margin-top: 10px;
+	margin-top: 10px;
 
 	font-weight: 300;
 
 	span {
-		color: $seconday;
+		color: $secondary;
 		font-weight: 300;
 	}
 }

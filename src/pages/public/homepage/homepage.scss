@@ -19,7 +19,7 @@
 
 	h1 {
 		font-size: 2rem;
-		color: $seconday;
+		color: $secondary;
 		font-weight: 400;
 	}
 }
@@ -38,7 +38,7 @@
 	}
 
 	span {
-		color: $seconday;
+		color: $secondary;
 	}
 }
 
@@ -58,13 +58,13 @@
 		position: absolute;
 		z-index: 1;
 		top: 240px;
-		filter: drop-shadow(1px -0px 0px $seconday);
+		filter: drop-shadow(1px -0px 0px $secondary);
 	}
 
 	:nth-child(2) {
 		top: 280px;
 		position: absolute;
-		filter: drop-shadow(1px -0px 0px $seconday);
+		filter: drop-shadow(1px -0px 0px $secondary);
 	}
 }
 .homepage-subtitle2 {
@@ -81,7 +81,7 @@
 	}
 
 	span {
-		color: $seconday;
+		color: $secondary;
 	}
 }
 
@@ -107,7 +107,7 @@
 	}
 
 	#btn-open {
-		background: $seconday;
+		background: $secondary;
 	}
 }
 
@@ -127,7 +127,7 @@
 // 		color: $white;
 
 // 		span {
-// 			color: $seconday;
+// 			color: $secondary;
 // 		}
 // 	}
 // }
@@ -157,7 +157,7 @@
 // 	}
 
 // 	span {
-// 		color: $seconday;
+// 		color: $secondary;
 // 	}
 // }
 
@@ -203,12 +203,12 @@
 // 	}
 
 // 	span {
-// 		color: $seconday;
+// 		color: $secondary;
 // 	}
 // }
 
 // .btn {
-// 	background: $seconday;
+// 	background: $secondary;
 // 	color: $primary;
 // 	border: none;
 // 	padding: 10px;

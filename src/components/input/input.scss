@@ -21,12 +21,12 @@
 		outline: none;
 		outline-offset: none;
 		background: $primary-light;
-		color: $seconday;
+		color: $secondary;
 		font-size: 1.2rem;
 		padding-left: 10px;
 
 		&::placeholder {
-			color: $seconday;
+			color: $secondary;
 			font-weight: 300;
 		}
 	}
@@ -52,7 +52,7 @@
 	}
 
 	input {
-		background: $seconday;
+		background: $secondary;
 		color: $primary;
 	}
 

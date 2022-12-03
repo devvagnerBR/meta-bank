@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import Navbar from '../../../components/navBar/navBar'
 import fnc from '../../../assets/icons/fnc_icon.png'
 import eye from '../../../assets/icons/eyeon.svg'
+import flag from '../../../assets/images/flag.png'
+
+
 const Account = () => {
     return (
         <div className='account-container'>
@@ -25,6 +28,11 @@ const Account = () => {
                                 <h4>Balance</h4>
                                 <img src={eye} alt="" />
                             </div>
+
+                            <main className='balance-value'>
+                                <h1>R$28.000,37</h1>
+                                <img src={flag} alt="" />
+                            </main>
                         </main>
                     </section>
                 </section>
