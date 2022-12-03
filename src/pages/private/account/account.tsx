@@ -12,7 +12,7 @@ const Account = () => {
             <main className='account-content'>
                 <header className='account-title-container' >
                     <h1>Olá, Wagner!</h1>
-                    <Link to=''>Ver perfil</Link>
+                    <Link to='/perfil'>Ver perfil</Link>
                 </header>
 
                 <section className='account-card-container'>

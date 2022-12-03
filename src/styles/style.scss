@@ -14,8 +14,13 @@
 @import "../pages/public/login/LoginForm/loginForm.scss";
 @import "../pages/public/login/login.scss";
 @import "../components/loading/loading.scss";
-@import '../components/navBar/navbar.scss';
+@import "../components/navBar/navbar.scss";
 @import "../pages/private/account/account.scss";
+
+//private routes
+@import "../pages/private/profile/profile.scss";
+
+// Media querys
 @import "./media.scss";
 
 *,

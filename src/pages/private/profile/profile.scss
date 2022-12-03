@@ -1,0 +1,23 @@
+.profile-container {
+	display: grid;
+	grid-template-rows: 12vh 5fr 10vh;
+	background: $secondary;
+	height: 100dvh;
+	padding: 1.5rem;
+}
+
+.header-profile-container {
+	h1 {
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+	h4 {
+		color: $primary-dark;
+		font: 1.2rem;
+		padding-top: 5px;
+	}
+}
+
+.profile-content-container {
+	background: green;
+}
