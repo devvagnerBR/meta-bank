@@ -10,7 +10,6 @@
 	background-size: cover;
 	background-attachment: local;
 	//background: red;
-	height: 100dvh;
 
 	// background-size: 100% 80vh;
 }
@@ -23,7 +22,7 @@
 	justify-content: start;
 	flex-direction: column;
 	gap: 5px;
-	height: 20vh;
+	height: 20dvh;
 
 	h1 {
 		color: $primary;
