@@ -13,9 +13,15 @@
 	}
 
 	.account-card {
-		height: 32%;
+		// height: 32%;
 	}
 }
-// 	@media (max-width: 500px) {
+@media (max-width: 400px) {
+	.account-card {
+		height: 35%;
+	}
 
-// }
+	.account-container {
+		padding: 1.5rem;
+	}
+}
