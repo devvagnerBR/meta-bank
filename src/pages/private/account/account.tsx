@@ -36,7 +36,6 @@ const Account = () => {
                         </main>
                     </section>
                 </section>
-
                 <Navbar />
             </main>
         </div>
