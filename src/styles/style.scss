@@ -3,13 +3,19 @@
 @import "../components/alertMessage/message.scss";
 @import "../components/button/button.scss";
 @import "../components/input/input.scss";
+
 @import "../components/header/header.scss";
-@import "../pages/homepage/homepage.scss";
-@import "../pages/signup/signup.scss";
-@import "../pages/signup/signupForm/signupForm.scss";
-@import '../pages/login//LoginForm/loginForm.scss';
-@import "../pages/login/login.scss";
-@import '../components/loading/loading.scss';
+
+@import "../pages/public/homepage/homepage.scss";
+
+@import "../pages/public/signup/signup.scss";
+@import "../pages/public/signup/signupForm/signupForm.scss";
+
+@import "../pages/public/login/LoginForm/loginForm.scss";
+@import "../pages/public/login/login.scss";
+@import "../components/loading/loading.scss";
+@import "../pages/private/account/account.scss";
+@import '../components/navBar/navbar.scss';
 @import "./media.scss";
 
 *,

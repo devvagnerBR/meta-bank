@@ -1,6 +1,6 @@
 import React from 'react'
-import Loading from '../../components/loading/loading'
-import useLoading from '../../hooks/useLoading'
+import Loading from '../../../components/loading/loading'
+import useLoading from '../../../hooks/useLoading'
 import SignupForm from './signupForm/signupForm'
 
 

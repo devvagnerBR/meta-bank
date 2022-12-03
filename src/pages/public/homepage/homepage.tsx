@@ -1,10 +1,10 @@
-import front_Card from '../../assets/images/credit card.png'
-import back_card from '../../assets/images/back-card.png'
+import front_Card from '../../../assets/images/credit card.png'
+import back_card from '../../../assets/images/back-card.png'
 import { Link } from 'react-router-dom'
-import Header from '../../components/header/header'
-import Loading from '../../components/loading/loading'
+import Header from '../../../components/header/header'
+import Loading from '../../../components/loading/loading'
 
-import useLoading from '../../hooks/useLoading'
+import useLoading from '../../../hooks/useLoading'
 
 const Homepage = () => {
 

@@ -1,6 +1,6 @@
-import Loading from '../../components/loading/loading'
+import Loading from '../../../components/loading/loading'
 import LoginForm from './LoginForm/loginForm'
-import { useLoading } from '../../hooks/useLoading';
+import { useLoading } from '../../../hooks/useLoading';
 
 const Login = () => {
 
