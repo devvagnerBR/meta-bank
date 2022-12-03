@@ -10,7 +10,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 100dvh;
+
 
 	// background-size: 100% 80vh;
 }
@@ -23,7 +23,7 @@
 	justify-content: start;
 	flex-direction: column;
 	gap: 5px;
-	height: 20vh;
+	height: 20dvh;
 
 	h1 {
 		color: $secondary;
