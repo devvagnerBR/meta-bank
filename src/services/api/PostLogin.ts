@@ -16,7 +16,7 @@ export const POST_LOGIN = () => {
 
 
 
-        BASE_URL.post( '/login', body )
+        BASE_URL.post( '/login/', body )
 
             .then( ( res ) => {
                 console.log( res )

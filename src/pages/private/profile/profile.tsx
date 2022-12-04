@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../../components/navBar/navBar'
 
 const Profile = () => {
+    
     return (
         <div className='profile-container'>
             <header className='header-profile-container'>

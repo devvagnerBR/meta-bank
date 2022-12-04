@@ -16,6 +16,16 @@
 	height: 100%;
 	cursor: pointer;
 
+	.active {
+		transition: 0, 2s ease-in;
+		h4 {
+			color: rgb(194, 194, 194);
+		}
+		img {
+			width: 30px;
+		}
+	}
+
 	a {
 		height: 100%;
 		display: flex;
@@ -24,8 +34,12 @@
 		justify-content: space-evenly;
 
 		h4 {
-			color: $primary-dark;
+			color: rgb(106, 106, 106);
 			font-size: 0.9rem;
 		}
 	}
 }
+
+// .navbar-item a:global(.active) svg > * {
+// 	fill: $red;
+// }

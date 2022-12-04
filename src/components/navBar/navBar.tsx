@@ -2,6 +2,7 @@ import React from 'react'
 
 //icons
 import home from '../../assets/icons/navbar/home.svg'
+
 import transfer from '../../assets/icons/navbar/transfer_fill.svg'
 import history from '../../assets/icons/navbar/historico.svg'
 import profile from '../../assets/icons/navbar/profile.svg'
